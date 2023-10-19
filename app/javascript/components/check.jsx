@@ -3,7 +3,7 @@ import './checkstyle.css';
 
 function CheckButton() {
   return (
-    <button>Che</button>
+    <button>Check</button>
   );
 }
 
