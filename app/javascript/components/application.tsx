@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import CheckButton from './check';
-
+import Login from './Login';
+import './Login.css';
 interface AppProps {
   arg: string;
 }
@@ -9,8 +9,7 @@ interface AppProps {
 const App = ({ arg }: AppProps) => {
   return (
     <div>
-      {`Hello, ${arg}!`}
-      <CheckButton />
+      <Login /> 
     </div>
   );
 };
